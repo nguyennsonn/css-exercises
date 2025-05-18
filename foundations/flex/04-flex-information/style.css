@@ -24,3 +24,18 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* SOlution */
+body{
+  text-align: center;
+}
+.header {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+.title {
+  margin-bottom: 32px;
+}
+.wrapit {
+  width: 200px;
+}
