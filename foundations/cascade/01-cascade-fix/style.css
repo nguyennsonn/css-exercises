@@ -18,8 +18,8 @@ body {
 }
 
 .confirm {
-  background: green;
-  color: white;
+  background: green !important;
+  color: white !important;
   font-weight: bold;
 } 
 
