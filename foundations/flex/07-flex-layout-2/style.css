@@ -27,3 +27,53 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex: 1;
+}
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar {
+  max-width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+li {
+  margin-bottom: 12px; /* Cách nhau 12px giữa các hàng */
+}
+
+.content {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card {
+  max-width: 200px;
+  padding: 16px;
+}
